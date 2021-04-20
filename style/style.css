@@ -1,0 +1,40 @@
+input,input:active{
+    outline: none;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../img/Schlagwortkatalog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.conteiner_form{
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+    
+}
+.form_aut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-right: 30px;
+    background: linear-gradient(109deg, rgba(0,0,0,0) 50%, rgba(255,255,255,0.7) 50%);
+
+}
+.form_aut-input{
+    margin: 5px;
+    max-width: 200px;
+}
