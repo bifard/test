@@ -1,8 +1,9 @@
-input,input:active{
+input,input:active,button{
     outline: none;
+    border: none;
     
 }
-body{
+body, h1, h2, input, button{
     margin: 0;
     padding: 0;
 }
@@ -12,29 +13,72 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(../img/Schlagwortkatalog.jpg);
+    background-image: url(../img/your-organizing_1_featured-in-blog-post-copy_compressed.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.conteiner_form{
+.conteiner{
     display: flex;
-
     height: 100%;
     width: 100%;
     
 }
-.form_aut{
+.form-aut{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100%;
     width: 100%;
-    padding-right: 30px;
     background: linear-gradient(109deg, rgba(0,0,0,0) 50%, rgba(255,255,255,0.7) 50%);
 
 }
-.form_aut-input{
-    margin: 5px;
+.form-aut__input, .form-aut__input:active{
+    margin: 5px 0px;
+    height: 30px;
     max-width: 200px;
+    border-radius: 10px;
+    border: solid 2px  rgba(79,240,255,0.7);
+    padding: 0 5px;
+    font-family: 'ApexMk3';
+}
+.form-aut__form{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(109deg, rgba(255,255,255,0.7) 48%, rgba(79,240,255,0.7) 46%);
+    padding: 20px 40px;
+    border-radius: 25%;
+}
+.form-aut__logIn{
+    margin: 5px 0px;
+    max-width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px  rgba(79,240,255,0.7);
+    font-family: 'ApexMk3';
+
+    
+}
+.form-aut__logIn:hover{
+    background-color: rgba(79,240,255,0.7);
+    border: solid 2px white;
+    cursor: pointer;
+}
+.form-aut__logIn:active{
+    background-color: white;
+    border: solid 2px  rgba(79,240,255,0.7);
+    cursor: pointer;
+
+}
+.form-aut__h1{
+    font-family: 'ApexMk3';
+}
+.form-aut__h2{
+    font-family: 'ApexMk3';
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'ApexMk3';
+    src: url(../fonts/20339.ttf);
 }
